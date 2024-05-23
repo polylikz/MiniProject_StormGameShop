@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(198, 212, 223);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+hr {
+  height: auto;
+  border: 1px solid rgb(198, 212, 223); /* ปรับเป็นสีเดียวกับพื้นหลัง */
+}
+
+.card {
+  background-color: rgb(240, 240, 240); /* เปลี่ยนเป็นสีที่ใกล้เคียงกับพื้นหลัง */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  margin: 10px 20px;
+  padding: 5px 20px 20px;
+  text-align: center;
+}
+
+.card-container {
+  display: flex; /* ให้การ์ดเรียงต่อกันในแนวนอน */
+  flex-wrap: wrap; /* ให้การ์ดเรียงกันเป็นหลายบรรทัดเมื่อขนาดหน้าจอไม่พอ */
+  justify-content: space-between; /* จัดการระยะห่างระหว่างการ์ด */
+}
+
+.card img {
+  border-radius: 5%;
+  width: 300px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  font-weight: 900;
+  color: rgb(23, 29, 37);
+}
+
+.card p {
+  color: rgb(23, 29, 37);
+  margin: 5px 0;
+  font-size: 1em;
+}
+
+.card p2 {
+  color: rgb(255, 0, 0);
+  margin: 5px 0;
+  font-size: 1em;
+  font-weight: 900;
+}
+
+.card a {
+  color: rgb(23, 29, 37);
+  margin: 5px 0;
+  font-size: 0.6em;
+}
+
+.card button {
+  color: rgb(23, 29, 37);
+  font-size: 0.8em;
+  text-align: center;
+  margin: 10px 3px;
+}
+
+.card .content {
+  margin: 10px;
+}
+
+.Heading {
+  background-color: rgb(23, 29, 37);
+  padding: 20px;
+  text-align: center;
+  font-family: "Motiva Sans", sans-serif;
+}
+
+.Heading .head {
+  color: rgb(220, 222, 223);
+  font-size: 4em;
+  text-align: center;
+  font-family: "Motiva Sans", sans-serif;
+}
+
+.Heading .cart {
+  color: rgb(220, 222, 223);
+  font-size: 0.8em;
+  text-align: center;
+  font-family: "Motiva Sans", sans-serif;
+  position: absolute;
+  right: 10px;
+}
+
+.Heading button {
+  color: rgb(220, 222, 223);
+  font-size: 0.8em;
+  text-align: center;
+  margin: 10px 3px;
+  position: absolute;
+  right: 10px;
+}
+
+.Footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #171a21;
+  color: #c8d2d7;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  border-top: 1px solid #444;
+}
+
+.Footer table {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.Footer th {
+  text-align: left;
+  padding: 10px 0;
+}
+
+.Footer a {
+  color: #66c0f4;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.Footer a:hover {
+  color: #8ab4f8;
+}
+
+.Footer p {
+  margin: 5px 0;
+  font-size: 0.9em;
+}
+
+table {
+  border-collapse: collapse;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
